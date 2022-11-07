@@ -1,0 +1,32 @@
+
+.submenu {
+    width: 100%;
+    height: 100%;
+}
+
+.sublista {
+    width: 100%;
+    height: 100%;
+}
+
+.subitem {
+    list-style: none;
+    padding: 4px;
+    margin: 4px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+.subitem a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+
+.subitem:hover {
+    margin: 2px;
+    padding: 2px;
+    font-size: 1.15em;
+}

@@ -1,0 +1,52 @@
+.menu {
+    width: 50%;
+    height: 100%;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 100%;
+
+    justify-content: start;
+    align-items: center;
+}
+
+.item {
+    margin: 0 25px;
+    list-style: none;
+    padding: 5px;
+}
+
+
+.item a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.item i {
+    margin-right: 5px;
+
+}
+
+.sub {
+    position: absolute;
+    width: auto;
+    height: 0;
+
+    margin-left: 15px;
+    margin-top: 2.5px;
+    overflow: hidden;
+
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.item:hover .sub {
+    height: auto;
+    border: 1px solid;
+}

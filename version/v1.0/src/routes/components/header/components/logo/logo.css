@@ -1,0 +1,47 @@
+.header_logo {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+
+    border: 1px solid;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    
+    text-transform: capitalize;
+    font-size: 3.2em;
+}
+
+.header_logo a{    
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 1600px) {
+    .header_logo {
+        font-size: 2.8em;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .header_logo {
+        font-size: 2.2em;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .header_logo {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .header_logo {
+        font-size: 1.7em;
+    }
+}
