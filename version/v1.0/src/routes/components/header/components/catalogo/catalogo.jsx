@@ -11,7 +11,7 @@ export default function Catalogo ({paramsCatalogo}) {
                 <ul className="sublista">
                     {paramsCatalogo.map((params) => (                            
                         <li className="subitem" key={params.id}>
-                            <Link to={""}>{params.nome}</Link>
+                            <Link to={params.url}>{params.nome}</Link>
                         </li>
                     ))}                   
                 </ul>

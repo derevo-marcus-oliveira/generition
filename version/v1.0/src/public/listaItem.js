@@ -1,7 +1,7 @@
 
 const paramsItem = [
-    {id:1, nome:"Teclado"},
-    {id:2, nome:"Mouse"}
+    {id:1, nome:"Teclado", url:"pdtTeclado"},
+    {id:2, nome:"Mouse", url:"pdtMouse"}
 ]
     
     
